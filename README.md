@@ -1,18 +1,18 @@
-# django-vue
-# virtual environment
+# Backend- Django
+## virtual environment
 
-# Creates a virtual environment
+## Creates a virtual environment
   python3 -m venv env
 
-# Activate the virtual environment
+## Activate the virtual environment
   source env/bin/activate
 
-# Dependency Installation
+## Dependency Installation
   Use the package manager pip to install requirements.
   pip install -r requirements.txt
 
-# DB Configurations
-# settings.py
+## DB Configurations
+## settings.py
 DATABASES = {
 'default': {
 'PORT': 3306,
@@ -28,18 +28,18 @@ DATABASES = {
 }
 }
 
-# Migrations
+## Migrations
   python manage.py makemigrations
 
   python manage.py migrate
 
-# To create admin user
+## To create admin user
   python manage.py createsuperuser
 
-# To run server
+## To run server
   python manage.py runserver
 
-# Endpoints
+## Endpoints
 
   To get all user
   {{url}}/api/v1/users/?page={page}&page_size={page_size}
@@ -47,3 +47,15 @@ DATABASES = {
   To get user by id
   {{url}}/api/v1/users/{id}
 
+# Frontend - Vue.js
+
+## Project setup
+
+  npm install
+ 
+## Compiles and hot-reloads for development
+
+  npm run serve
+
+## Compiles and minifies for production
+  npm run build
