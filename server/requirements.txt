@@ -1,5 +1,5 @@
 django==3.0.6
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 django-cors-headers==3.2.1
 django_extensions
 mysqlclient==1.4.6
